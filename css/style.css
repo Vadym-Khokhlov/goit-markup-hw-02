@@ -7,6 +7,9 @@
     --footer-color: rgba(255, 255, 255, 0.6);
     --hero-color: #2f303a;
     --white-color: #ffffff;
+    --button-background-color :#f5f4fa;
+    --black-color: #000000;
+    --hero-hover-color: #188ce8;
 }
 
 /* Body */
@@ -71,7 +74,7 @@ body {
 }
 
 .logo-studio {
-    color: #000000;
+    color: var(--black-color);
 }
 
 .header .current-page {
@@ -89,7 +92,6 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
     color: var(--white-color);
 }
 
@@ -106,7 +108,7 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-    background-color: var(--accent-color);
+    background-color:var(--hero-hover-color);
     color: var(--white-color);
 }
 /* main */
@@ -138,14 +140,13 @@ body {
 }
 
 .team {
-    background-color: #f5f4fa;
+    background-color: var(--button-background-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .team-subtitle {
@@ -207,7 +208,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
-    background-color: #f5f4fa;
+    background-color: var(--button-background-color);
 }
 
 .button-list .current,
