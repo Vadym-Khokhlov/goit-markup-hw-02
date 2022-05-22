@@ -2,14 +2,14 @@
 :root {
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
-    --basic-background-color: #e5e5e5;
+    --basic-background-color: #ffffff;
     --accent-color: #2196f3;
     --footer-color: rgba(255, 255, 255, 0.6);
     --hero-color: #2f303a;
-    --white-color: #ffffff;
     --button-background-color :#f5f4fa;
     --black-color: #000000;
     --hero-hover-color: #188ce8;
+    
 }
 
 /* Body */
@@ -23,7 +23,7 @@ body {
     letter-spacing: 0.03em;
 
     color: var(--secondary-text-color);
-    background-color: var(--white-color);
+    background-color: var(--basic-background-color);
 }
 
 .list {
@@ -92,12 +92,12 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--white-color);
+    color: var(--basic-background-color);
 }
 
 .hero-button {
     background-color: var(--accent-color);
-    color: var(--white-color);
+    color: var(--basic-background-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -109,11 +109,13 @@ body {
 .hero-button:hover,
 .hero-button:focus {
     background-color:var(--hero-hover-color);
-    color: var(--white-color);
 }
+
 /* main */
+
 .section {
     background-color: var(--basic-background-color);
+    color: var(--black-color);
 }
 .section-subtitle {
     font-weight: 700;
@@ -176,7 +178,7 @@ body {
 }
 
 .footer-logo-studio {
-    color: var(--white-color);
+    color: var(--basic-background-color);
 }
 .footer-logo-link {
     font-family: 'Raleway';
@@ -215,7 +217,7 @@ body {
 .button-portfolio:hover,
 .button-portfolio:focus {
     background-color: var(--accent-color);
-    color: var(--white-color);
+    color: var(--basic-background-color);
 }
 
 .image-title {
